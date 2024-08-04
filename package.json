@@ -1,0 +1,11 @@
+{
+  "name": "gitartwork-generator",
+  "version": "1.0.0",
+  "main": "generate-gitartwork.js",
+  "scripts": {
+    "generate": "node generate-gitartwork.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
