@@ -24,7 +24,7 @@ jobs:
 
       - name: Generate gitartwork SVG
         run: node generate-gitartwork.js
-        working-directory: .github/actions/gitartwork
+        working-directory: .github/workflows/gitartwork
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USER_NAME: jasineri
